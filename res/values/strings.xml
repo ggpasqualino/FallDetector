@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="hello">Hello World, HelloAccelerometerActivity!</string>
+    <string name="app_name">HelloAccelerometer</string>
+    <string name="titleMain"> Status do Sistema</string>
+    <string name="eixoX">X: </string>
+    <string name="eixoY">Y: </string>
+    <string name="eixoZ">Z: </string>
+    <string name="titleQueda">QUEDA!</string>
+    <string name="tvPergunta">ESTÁ TUDO BEM?</string>
+    <string name="buttonTdBem">SIM</string>
+    <string name="btIniciar">Iniciar</string>
+    <string name="btParar">Parar</string>
+    <string name="tvCalibrar">Calibrando</string>
+    <string name="tvContagemCalibragem">em 3</string>
+    <string name="tvStatus">PARADO</string>
+
+</resources>

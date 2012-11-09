@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:keepScreenOn="true"
+    android:orientation="vertical" >
+
+    <TextView
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:text="@string/titleQueda"
+        android:textSize="30sp" />
+
+    <TextView
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:text="@string/tvPergunta"
+        android:textSize="30sp" />
+
+    <Button
+        android:id="@+id/buttonTdBem"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/buttonTdBem"
+        android:textSize="30sp" />
+
+</LinearLayout>

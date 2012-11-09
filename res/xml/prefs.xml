@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android"
+    android:title="Configurações" >
+
+    <EditTextPreference
+        android:defaultValue="Pessoa"
+        android:key="usuario"
+        android:title="Usuário" />
+    <EditTextPreference
+        android:defaultValue="caiu"
+        android:key="msg"
+        android:title="Mensagem" />
+
+    <PreferenceCategory android:title="Alerta Web" >
+        <CheckBoxPreference
+            android:defaultValue="true"
+            android:key="isAlertaWebEnable"
+            android:title="Ativar Alerta Web" />
+
+        <EditTextPreference
+            android:defaultValue="http://falling-guipasqualino.rhcloud.com/queda"
+            android:key="urlWebService"
+            android:title="URL" />
+    </PreferenceCategory>
+    <PreferenceCategory android:title="Alerta SMS" >
+        <CheckBoxPreference
+            android:defaultValue="false"
+            android:key="isAlertaSmsEnable"
+            android:title="Ativar Alerta SMS" />
+
+        <EditTextPreference
+            android:defaultValue="0414498007787"
+            android:key="phoneSms "
+            android:phoneNumber="true"
+            android:title="Telefone" />
+    </PreferenceCategory>
+    <PreferenceCategory android:title="Alerta Rede" >
+        <CheckBoxPreference
+            android:defaultValue="false"
+            android:key="isAlertaRedeEnable"
+            android:title="Ativar Alerta de Rede" />
+
+        <EditTextPreference
+            android:defaultValue="192.168.1.1"
+            android:key="host"
+            android:title="Host" />
+        <EditTextPreference
+            android:defaultValue="6789"
+            android:key="porta"
+            android:numeric="integer"
+            android:title="Porta" />
+    </PreferenceCategory>
+    <PreferenceCategory android:title="Calibragem" >
+        <CheckBoxPreference
+            android:defaultValue="false"
+            android:key="calibrado"
+            android:title="Calibrado" />
+
+        <EditTextPreference
+            android:defaultValue="50"
+            android:key="numAmostras"
+            android:numeric="integer"
+            android:title="Número de Amostras" />
+        <EditTextPreference
+            android:defaultValue="0"
+            android:key="deltaX"
+            android:numeric="decimal"
+            android:title="Delta X" />
+        <EditTextPreference
+            android:defaultValue="0"
+            android:key="deltaY"
+            android:numeric="decimal"
+            android:title="Delta Y" />
+        <EditTextPreference
+            android:defaultValue="0"
+            android:key="deltaZ"
+            android:numeric="decimal"
+            android:title="Delta Z" />
+    </PreferenceCategory>
+
+</PreferenceScreen>
