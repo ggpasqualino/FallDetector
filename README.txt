@@ -1,0 +1,1 @@
+This is an Android project that was made as part of my Final Paper. It is suposed to detect falls of elderly.
