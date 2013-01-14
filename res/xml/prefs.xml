@@ -30,7 +30,7 @@
 
         <EditTextPreference
             android:defaultValue="0414498007787"
-            android:key="phoneSms "
+            android:key="phoneSms"
             android:phoneNumber="true"
             android:title="Telefone" />
     </PreferenceCategory>
